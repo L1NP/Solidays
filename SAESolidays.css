@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+header {
+    background: url('concert.jpg') no-repeat center center/cover;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    position: fixed;
+    font-size: large;
+}
+
+#annee {
+    margin-right: auto;
+}
+
+#logo {
+    width: 5%;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav input {
+    margin-right: 30px;
+    width: 200px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #fdbd41, #ff6d83);
+    color: white;
+    font-size: large;
+    outline: none;
+}
+
+.banniere {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    height: 100vh;
+    padding: 0 30px;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: x-large;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h1 span {
+    color: #fdbd41;
+}
+
+.button {
+    margin-right: 250px;
+    background: linear-gradient(to right, #fdbd41, #ff6d83);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+table {
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+}
+
+table img {
+    width: 150px;
+    height: auto;
+}

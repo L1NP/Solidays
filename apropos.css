@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('ambiance.jpg') no-repeat;
+    background-size: cover;
+    min-height: 98vh;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    position: fixed;
+    font-size: large;
+}
+
+#annee {
+    margin-right: auto;
+}
+
+#logo {
+    width: 5%;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav input {
+    margin-right: 30px;
+    width: 200px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #fdbd41, #ff6d83);
+    color: white;
+    font-size: large;
+    outline: none;
+}
+
+h1 {
+    margin-left: 30px;
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #fdbd41;
+}
+
+p {
+    margin-left: 30px;
+    font-size: x-large;
+}

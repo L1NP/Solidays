@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('scene.jpg') no-repeat;
+    background-size: cover;
+    min-height: 98vh;
+}
+
+header {
+    height: 10vh;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    position: fixed;
+    font-size: large;
+}
+
+#annee {
+    margin-right: auto;
+}
+
+#logo {
+    width: 5%;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav input {
+    margin-right: 30px;
+    width: 200px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #fdbd41, #ff6d83);
+    color: white;
+    font-size: large;
+    outline: none;
+}
+
+.tableau {
+    margin-left: 30px;
+    border-spacing: 40px;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #fdbd41;
+    padding-left: 30px;
+}
+
+td {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 5px solid #33ccff;
+    background: black;
+    position: relative;
+}
+
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    position: relative;
+    margin-top: 50px;
+}
+
+.status {
+    bottom: 10px;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+
+.status.red {
+    background-color: red;
+}
+
+.status.orange {
+    background-color: orange;
+}
